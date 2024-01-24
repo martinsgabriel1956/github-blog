@@ -1,4 +1,7 @@
-* {
+import { createGlobalStyle } from "styled-components";
+
+export const GlobalStyle = createGlobalStyle`
+  * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -17,11 +20,13 @@ a {
 
 body {
   margin: 0 auto;
-  display: flex;
   min-width: 320px;
   min-height: 100vh;
+  background-color: ${(props) => props.theme.colors.base.background};
+  font-family: ${(props) => props.theme.fontFamily.nunito};
 }
 
 button {
   cursor: pointer;
 }
+`;
