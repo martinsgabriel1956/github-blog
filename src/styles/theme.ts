@@ -4,12 +4,12 @@ export const theme = {
     bold: 700,
   },
   fontSize: {
-    sm: 12,
-    regular: 14,
-    md: 16,
-    lg: 18,
-    xl: 20,
-    "2xl": 24,
+    sm: "0.75rem",
+    regular: "0.875rem",
+    md: "1rem",
+    lg: "1.125rem",
+    xl: "1.25rem",
+    "2xl": "1.5rem",
   },
   fontFamily: {
     nunito:  "'Nunito', sans-serif",
